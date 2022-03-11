@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible"content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Aspire Systems</title>
+<link rel="stylesheet" href="/home/aspirenav43/Desktop/form1.css">
+<script src="validation.js">
+</script>
+
+</head>
+<body background="img.png">
+
+<h1>Project Management</h1>
+<div class="form-center" >
+<form>
+	Employee Name:<input type="text" placeholder="Enter name" id="name"><br><br>
+
+   	Date Of Birth :<input type="date" placeholder="dd/mm/yyyy" id="dob" min="1990-01-01"/> <br><br>
+	
+	Phone Number :<input type="text" placeholder="Enter phoneNumber" id="phonum" ><br><br>
+	
+	Gender :<input type="radio" id="Male" name="gender" value="Male">
+	<label for="Male">Male</label>
+	<input type="radio" id="Female" name="gender" value="Female">
+	<label for="Female">Female</label>
+ 	<input type="radio" id="others" name="gender" value="others">
+	<label for="Others">Others</label><br><br>
+
+
+        <label for="tech-names">Technology Assigned :</label>
+	<select name="tech-names" id="tech-names">
+   	<option value="Lamp">Lamp</option>
+  	<option value="EBA">EBA</option>
+  	<option value="Oracle">Oracle</option>
+ 	<option value="Dotnet">Dotnet</option>
+</select><br><br>
+	<button type="submit" id="submit" onclick="doclick()">Submit</button>
+	
+</form>
+</div>
+
+</table>
+</body>
+</html> 
