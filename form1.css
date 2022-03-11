@@ -1,0 +1,24 @@
+form {
+	margin-left:500px;
+	margin-top:90px;
+	background-color:yellow;
+	width:400px;
+  	padding:50px;
+}
+h1{
+	margin-left:590px;
+	margin-top:90px;
+}
+.form-center{
+	
+}
+#submit{
+	position:relative;
+	left:150px;
+}
+body {
+  background-repeat: no-repeat;
+  width:400px;
+  height:400px;
+  background-size: 100% 150%;
+}
