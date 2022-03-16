@@ -4,9 +4,7 @@ var phoneNum =/^[6789]{1}[\d]{9}$/;
 function doclick(){
 	
 	var uname=document.getElementById("name").value;
-	var mob
-	//console.log("ho");
-	console.log(uname);
+	
 	if(uname=="")
 	{
 	alert("enter name");
