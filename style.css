@@ -17,10 +17,7 @@ th {
     padding: 8px;
 }
 
-tr:nth-child(even),
-table.list thead>tr {
-    background-color: #dddddd;
-}
+
 
 input[type=text],
 input[type=number] {
